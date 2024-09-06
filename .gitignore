@@ -1,0 +1,7 @@
+Secrets.swift
+# Xcode files
+*.xcuserdata
+*.xcworkspace
+*.xcuserstate
+build/
+DerivedData/
