@@ -1,6 +1,5 @@
 //WeatherViewModel.swift
 import UIKit
-import CoreLocation
 import Alamofire
 
 class WeatherViewModel {
@@ -10,6 +9,8 @@ class WeatherViewModel {
     var weatherDescription = "123"
     
     let apiKey = Secrets.apiKey
+    
+    
     
     //carrying out request using Alamofire and coordinates
     func getWeather(latitude: Double, longitude: Double, completion: @escaping () -> Void) {
@@ -34,7 +35,6 @@ class WeatherViewModel {
             }
         }
     }
-    
     
     func getWeather(for city: String, completion: @escaping () -> Void) {
         
@@ -63,4 +63,3 @@ class WeatherViewModel {
         }
     }//getWeather
 }
-

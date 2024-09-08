@@ -5,3 +5,4 @@ Secrets.swift
 *.xcuserstate
 build/
 DerivedData/
+.DS_Store
